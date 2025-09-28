@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: buse-2            # Use your actual Render service name here
     env: python
     pythonVersion: 3.11.4
     buildCommand: pip install -r requirements.txt
