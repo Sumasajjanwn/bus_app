@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Supabase credentials - set these as environment variables or replace with literal strings (NOT recommended for production)
-DB_HOST = os.getenv('SUPABASE_DB_HOST', 'db.tiokiqoympxwfrjsefsy.supabase.co')
+DB_HOST = os.getenv('SUPABASE_DB_HOST', 'tiokiqoympxwfrjsefsy.supabase.co')
 DB_NAME = os.getenv('SUPABASE_DB_NAME', 'bus-db')
 DB_USER = os.getenv('SUPABASE_DB_USER', 'Suma')
 DB_PASS = os.getenv('SUPABASE_DB_PASS', 'Bus@123')
