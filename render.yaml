@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: your-service-name
+    name: buses-3
     env: python
     pythonVersion: 3.11.4
     buildCommand: pip install -r requirements.txt
