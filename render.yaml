@@ -1,6 +1,10 @@
 services:
   - type: web
+<<<<<<< HEAD
     name: buses-5
+=======
+    name: buse-2            # Use your actual Render service name here
+>>>>>>> 85b73d0 (Add Render config to set Python 3.11)
     env: python
     pythonVersion: 3.11.4
     buildCommand: pip install -r requirements.txt
