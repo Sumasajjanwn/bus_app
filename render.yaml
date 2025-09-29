@@ -1,15 +1,7 @@
 services:
   - type: web
-<<<<<<< HEAD
-    name: buse-2            # Use your actual Render service name here
-=======
-<<<<<<< HEAD
-    name: buses-5
-=======
-    name: buse-2            # Use your actual Render service name here
->>>>>>> 85b73d0 (Add Render config to set Python 3.11)
->>>>>>> save-my-changes
+    name: bus-tracking-backend
     env: python
-    pythonVersion: 3.11.4
+    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app
+    startCommand: python app.py

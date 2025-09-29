@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import psycopg2
+import psycopg
 from flask_cors import CORS
 import os
 
@@ -13,7 +13,7 @@ DB_USER = os.getenv('SUPABASE_DB_USER', 'Suma')
 DB_PASS = os.getenv('SUPABASE_DB_PASS', 'Bus@123')
 DB_PORT = os.getenv('SUPABASE_DB_PORT', '5432')
 
-conn = psycopg2.connect(
+conn = psycopg.connect(
     host=DB_HOST,
     dbname=DB_NAME,
     user=DB_USER,
